@@ -1,0 +1,8 @@
+version: 2
+sources:
+  - name: raw
+    database: DBT_SNAPSHOT_DQ
+    schema: RAW
+    tables:
+      - name: orders
+      - name: product_prices

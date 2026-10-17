@@ -1,0 +1,44 @@
+# dbt generated files
+target/
+dbt_packages/
+logs/
+
+# Python virtual environment
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# dbt credentials
+profiles.yml
+.env
+.env.*
+!.env.example
+
+# Snowflake credentials
+*.p8
+*.pem
+*.key
+
+# Local configuration
+.user.yml
+.DS_Store
+.vscode/
+.idea/
+
+# Temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+
+# OS files
+Thumbs.db
+# Internal review notes
+REVIEW.md
+
+# Local environment configuration
+scripts/dbt_env.sh
+
+profiles.yml
